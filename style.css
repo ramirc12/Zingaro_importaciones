@@ -4120,15 +4120,7 @@ section{
     z-index:-1;
 
 }
-.header{
 
-    backdrop-filter: blur(15px);
-
-    transition:.3s;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-}
 /*=========================
       BUSCADOR PREMIUM
 ==========================*/
@@ -4210,24 +4202,49 @@ section{
 
 }
 
-@media (max-width:768px){
 
-    .hero-image{
-
-        width:100%;
-        max-height:320px;
-        height:auto;
-        object-fit:contain;
-
-    }
-
-}
 
 @media (max-width:768px){
 
     .hero{
 
-        padding-top:120px;
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+        padding:110px 20px 40px;
+
+        min-height:auto;
+        gap:30px;
+
+    }
+
+    .hero-image{
+
+        width:100%;
+        justify-content:center;
+
+    }
+
+    .hero-image img{
+
+        width:85%;
+        max-width:280px;
+        transform:none;
+
+    }
+
+    .hero-text{
+
+        width:100%;
+
+    }
+
+    .buttons{
+
+        justify-content:center;
+        flex-wrap:wrap;
 
     }
 
