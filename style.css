@@ -268,6 +268,9 @@ box-shadow:0 12px 30px rgba(40,184,255,.35);
 
 }
 
+
+
+
 .hero-image img{
 
     width:600px;
@@ -4204,5 +4207,28 @@ section{
     width:26px;
     height:26px;
     stroke:#64748b;
+
+}
+
+@media (max-width:768px){
+
+    .hero-image{
+
+        width:100%;
+        max-height:320px;
+        height:auto;
+        object-fit:contain;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding-top:120px;
+
+    }
 
 }
